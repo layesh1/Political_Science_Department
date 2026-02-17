@@ -1,4 +1,213 @@
+================================================================
+SCHOOL VOUCHER SURVEY — RESEARCH SUMMARY STATISTICS
+Fall 2025 | UNC Charlotte Sample
+================================================================
+Total Respondents: N = 1,005
+Data collected via survey experiment with random assignment
+to framing conditions (Specialty vs. Equity frame).
+================================================================
+
+────────────────────────────────────────────────────────────────
+BLOCK 1: PUBLIC AWARENESS & GENERAL SUPPORT
+────────────────────────────────────────────────────────────────
+
+These variables establish baseline awareness and attitudes
+toward school voucher policies in the general public.
+
+1. STATE PROGRAM AWARENESS (VinState, n = 1,005)
+   Does the respondent believe their state offers a voucher program?
+
+   Yes              29.7%
+   No               17.9%
+   Not sure         52.4%
+
+   >> Note: The majority of respondents (52.4%) were
+   uncertain whether their state had a voucher program, indicating
+   low public awareness of existing policy — relevant for framing
+   how informed public opinion actually is on this issue.
+
+────────────────────────────────────────────────────────────────
+
+2. SELF-REPORTED KNOWLEDGE (VKnow, n = 1,002)
+
+   Not knowledgeable at all     49.4%
+   Somewhat knowledgeable       45.4%
+   Very knowledgeable            5.2%
+
+   >> Nearly half of respondents report no
+   knowledge of voucher policy at all. Only 5.2% report high
+   familiarity.
+
+────────────────────────────────────────────────────────────────
+
+3. GENERAL POLICY SUPPORT (Vsupport, n = 1,005)
+
+   Strongly oppose          19.0%
+   Somewhat oppose          16.0%
+   Not sure or neutral      18.0%
+   Somewhat support         28.6%
+   Strongly support         18.4%
+
+   Net support (somewhat + strongly): 47.0%
+   Net opposition (somewhat + strongly): 35.0%
+
+   >> Note: Support for school vouchers outpaces
+   opposition by roughly 12 points in this national sample,
+   with a notable 18% remaining neutral. The distribution
+   suggests a policy with majority-leaning support but
+   significant polarization. Neither a consensus nor a
+   fringe position.
+
+
+════════════════════════════════════════════════════════════════
+BLOCK 2: PERCEIVED EFFECTS ON SPECIFIC POPULATIONS
+════════════════════════════════════════════════════════════════
+
+Respondents evaluated whether voucher policies benefit or harm
+six distinct groups. Scale: 1 (greatly harmed) → 5 (greatly benefit).
+Condensed into % Harmed vs. % Benefit for interpretability.
+
+                        % Harmed    % Neutral    % Benefit
+   Poor families          32.0%       16.0%        51.9%
+   Wealthy families        6.6%       36.0%        57.4%
+   Religious families      3.3%       37.5%        59.2%
+   Urban families         21.9%       25.9%        52.1%
+   Rural families         28.0%       30.3%        41.7%
+   Students w/ disabilities 21.9%     31.2%        46.9%
+
+   >> Research note — Key contrasts worth highlighting:
+
+   - WEALTHY vs. POOR GAP: Respondents see wealthy families as
+     the clearest beneficiaries (57.4% benefit), but opinions
+     on poor families are the most divided of any group (32%
+     harmed vs. 52% benefit). This ambivalence about equity
+     effects mirrors the core normative debate in the voucher
+     literature.
+
+   - RURAL PENALTY: Rural families receive the lowest net
+     benefit rating (41.7%) and the second-highest harm rating
+     (28.0%), suggesting the public intuitively recognizes
+     geographic access barriers — private school availability
+     is concentrated in urban/suburban areas.
+
+   - STUDENTS WITH DISABILITIES: 21.9% believe SWD are harmed,
+     reflecting awareness that private schools are not subject
+     to the same IDEA obligations as public schools. Yet 46.9%
+     still see a net benefit, indicating public uncertainty
+     about disability rights implications of voucher policy.
+
+   - RELIGIOUS FAMILIES: Seen as the most likely beneficiaries
+     (59.2% benefit, only 3.3% harmed), consistent with the
+     prominent role of faith-based schools in voucher programs.
+
+
+════════════════════════════════════════════════════════════════
+BLOCKS 3 & 4: FRAMING EXPERIMENT RESULTS
+════════════════════════════════════════════════════════════════
+
+DESIGN: Respondents were randomly assigned to one of two
+framing conditions. The SPECIALTY frame emphasized school
+choice and the ability of private schools to serve students
+better. The EQUITY frame emphasized exclusivity and the
+potential for vouchers to favor some families over others.
+
+Respondents then rated whether three school types should be
+eligible to participate in voucher programs.
+
+SCALE: 1 = Definitely eligible → 5 = Definitely NOT eligible
+(Higher scores = greater support for restricting eligibility)
+
+────────────────────────────────────────────────────────────────
+
+SCHOOL TYPE 1: HIGH-TUITION SCHOOL
+(Voucher covers half tuition; Equity frame added "leaving it
+unaffordable to others")
+
+   Specialty frame:  M = 2.16  (SD = 1.24,  n = 502)
+   Equity frame:     M = 2.90  (SD = 1.39,  n = 501)
+   Difference:       +0.74 points toward restriction
+
+   Independent samples t-test: t(1001) = -8.856, p < .001 ***
+
+   >> Statistically significant. The equity framing made
+   respondents substantially more likely to oppose eligibility
+   for high-tuition schools. Effect size is meaningful —
+   roughly half a standard deviation shift.
+
+────────────────────────────────────────────────────────────────
+
+SCHOOL TYPE 2: RELIGIOUS SCHOOL
+(Equity frame added "does not admit students who follow other
+values, beliefs, and lifestyles")
+
+   Specialty frame:  M = 3.16  (SD = 1.48,  n = 503)
+   Equity frame:     M = 3.61  (SD = 1.42,  n = 501)
+   Difference:       +0.45 points toward restriction
+
+   Independent samples t-test: t(1002) = -4.845, p < .001 ***
+
+   >> Statistically significant, though the smallest effect
+   of the three school types. Opinions on religious schools
+   were already more divided under the specialty frame
+   (M = 3.16, near neutral), suggesting pre-existing
+   ambivalence about religious school eligibility that is
+   further nudged by exclusion framing.
+
+────────────────────────────────────────────────────────────────
+
+SCHOOL TYPE 3: SELECTIVE COGNITIVE SCHOOL
+(Specialty: "specializes in serving students of high
+intelligence"; Equity frame added "does not admit students of
+lower or impaired cognitive abilities")
+
+   Specialty frame:  M = 2.15  (SD = 1.17,  n = 502)
+   Equity frame:     M = 3.09  (SD = 1.37,  n = 502)
+   Difference:       +0.94 points toward restriction
+
+   Independent samples t-test: t(1002) = -11.749, p < .001 ***
+
+   >> Largest framing effect of the three. Explicitly naming
+   the exclusion of students with lower or impaired cognitive
+   abilities produced the strongest public backlash. Nearly
+   a full scale point shift. This is particularly notable
+   given the SWD harm findings in Block 2, suggesting the
+   public is especially responsive to disability exclusion
+   when it is made salient.
+
+────────────────────────────────────────────────────────────────
+
+OVERALL EXPERIMENT SUMMARY
+
+   All three framing effects significant at p < .001.
+   Direction consistent: equity framing increases support
+   for restricting school eligibility in all cases.
+
+   Ranked by effect size (mean difference):
+   1. Selective Cognitive School   Δ = 0.94  (largest)
+   2. High-Tuition School          Δ = 0.74
+   3. Religious School             Δ = 0.45  (smallest)
+
+   >> Note: The consistency of the framing effect
+   across all three school types, and especially its
+   strength for the selective cognitive school, supports
+   the conclusion that how voucher policies are framed
+   significantly shapes public willingness to restrict
+   eligibility. This has direct implications for advocacy,
+   messaging strategy, and legislative framing in the
+   voucher debate.
+
+
+
+════════════════════════════════════════════════════════════════
+STATISTICAL SIGNIFICANCE NOTATION
+════════════════════════════════════════════════════════════════
+*** p < .001   ** p < .01   * p < .05   n.s. = not significant
+All t-tests are independent samples (two-tailed).
+================================================================
+
+
 =================================================================
+RANDOM STATISTICS SECTION
 SCHOOL VOUCHER SURVEY — SUMMARY STATISTICS
 =================================================================
 Total respondents: 1005
