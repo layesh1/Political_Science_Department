@@ -1,0 +1,94 @@
+=================================================================
+SCHOOL VOUCHER SURVEY — SUMMARY STATISTICS
+=================================================================
+Total respondents: 1005
+
+─── BLOCK 1: AWARENESS & SUPPORT ───
+
+VinState  (n=1005)
+  Yes                                       29.7%
+  No                                        17.9%
+  Not sure                                  52.4%
+
+VKnow  (n=1002)
+  Not knowledgeable at all                  49.4%
+  Somewhat knowledgable                     45.4%
+  Very knowledgeable                         5.2%
+
+Vsupport  (n=1005)
+  Strongly oppose                           19.0%
+  Somewhat oppose                           16.0%
+  Not sure or neutral                       18.0%
+  Somewhat support                          28.6%
+  Strongly support                          18.4%
+
+─── BLOCK 2: PERCEIVED EFFECTS ───
+
+VPoor — Effects on
+Poor Families  (n=1004)
+  They are greatly harmed                   17.4%
+  They are slightly harmed                  14.6%
+  No effect or not sure                     16.0%
+  They somewhat benefit                     28.3%
+  They greatly benefit                      23.6%
+
+VWealthy — Effects on
+Wealthy Families  (n=1005)
+  They are greatly harmed                    1.0%
+  They are slightly harmed                   5.6%
+  No effect or not sure                     36.0%
+  They somewhat benefit                     25.3%
+  They greatly benefit                      32.1%
+
+VReligious — Effects on
+Religious Families  (n=1005)
+  They are greatly harmed                    0.8%
+  They are slightly harmed                   2.5%
+  No effect or not sure                     37.5%
+  They somewhat benefit                     34.3%
+  They greatly benefit                      24.9%
+
+VUrban — Effects on
+Urban Families  (n=1004)
+  They are greatly harmed                    9.0%
+  They are slightly harmed                  12.9%
+  No effect or not sure                     25.9%
+  They somewhat benefit                     38.4%
+  They greatly benefit                      13.7%
+
+VRural — Effects on
+Rural Families  (n=1004)
+  They are greatly harmed                   12.1%
+  They are slightly harmed                  15.9%
+  No effect or not sure                     30.3%
+  They somewhat benefit                     27.9%
+  They greatly benefit                      13.8%
+
+Vswd — Effects on Students
+with Disabilities  (n=1005)
+  They are greatly harmed                   12.2%
+  They are slightly harmed                   9.7%
+  No effect or not sure                     31.2%
+  They somewhat benefit                     25.6%
+  They greatly benefit                      21.3%
+
+─── BLOCKS 3 & 4: FRAMING EXPERIMENT (T-TESTS) ───
+Scale: 1 = Definitely eligible → 5 = Definitely NOT eligible
+
+Tuition School
+  Specialty frame: M = 2.16, SD = 1.24, n = 502
+  Equity frame:    M = 2.90, SD = 1.39, n = 501
+  t(1001) = -8.856, p = 0.0000 ***
+  Direction: Equity frame → MORE restriction
+
+Religious School
+  Specialty frame: M = 3.16, SD = 1.48, n = 503
+  Equity frame:    M = 3.61, SD = 1.42, n = 501
+  t(1002) = -4.845, p = 0.0000 ***
+  Direction: Equity frame → MORE restriction
+
+Selective Cognitive School
+  Specialty frame: M = 2.15, SD = 1.17, n = 502
+  Equity frame:    M = 3.09, SD = 1.37, n = 502
+  t(1002) = -11.749, p = 0.0000 ***
+  Direction: Equity frame → MORE restriction
