@@ -1,0 +1,203 @@
+======================================================================
+SUBGROUP ANALYSIS — VOUCHER SURVEY (Fall 2025 National, N=1,005)
+======================================================================
+
+──────────────────────────────────────────────────────────────────
+SECTION 1: POLITICAL PARTY  (ANOVA on each outcome)
+──────────────────────────────────────────────────────────────────
+
+General Support: F=17.72, p=0.0000 ***
+   Democrat            : M = 2.858
+   Lean Dem            : M = 2.677
+   Independent         : M = 3.273
+   Lean Rep            : M = 3.234
+   Republican          : M = 3.698
+   >> Range: 2.677 (Dem) to 3.698 (Rep), Δ = 1.020
+
+Poor Families: F=18.87, p=0.0000 ***
+   Democrat            : M = 2.959
+   Lean Dem            : M = 2.946
+   Independent         : M = 3.292
+   Lean Rep            : M = 3.683
+   Republican          : M = 3.858
+   >> Range: 2.946 (Dem) to 3.858 (Rep), Δ = 0.912
+
+Wealthy Families: F=3.82, p=0.0044 **
+   Democrat            : M = 3.912
+   Lean Dem            : M = 3.946
+   Independent         : M = 3.789
+   Lean Rep            : M = 3.688
+   Republican          : M = 3.631
+   >> Range: 3.631 (Dem) to 3.946 (Rep), Δ = 0.315
+
+Religious Families: F=0.61, p=0.6586 n.s.
+   Democrat            : M = 3.819
+   Lean Dem            : M = 3.882
+   Independent         : M = 3.807
+   Lean Rep            : M = 3.703
+   Republican          : M = 3.756
+   >> Range: 3.703 (Dem) to 3.882 (Rep), Δ = 0.179
+
+Urban Families: F=13.90, p=0.0000 ***
+   Democrat            : M = 3.165
+   Lean Dem            : M = 3.000
+   Independent         : M = 3.441
+   Lean Rep            : M = 3.703
+   Republican          : M = 3.729
+   >> Range: 3.000 (Dem) to 3.729 (Rep), Δ = 0.729
+
+Rural Families: F=11.51, p=0.0000 ***
+   Democrat            : M = 3.000
+   Lean Dem            : M = 2.817
+   Independent         : M = 3.155
+   Lean Rep            : M = 3.344
+   Republican          : M = 3.580
+   >> Range: 2.817 (Dem) to 3.580 (Rep), Δ = 0.763
+
+Students w/ Disabilities: F=13.85, p=0.0000 ***
+   Democrat            : M = 3.133
+   Lean Dem            : M = 2.968
+   Independent         : M = 3.360
+   Lean Rep            : M = 3.750
+   Republican          : M = 3.764
+   >> Range: 2.968 (Dem) to 3.764 (Rep), Δ = 0.797
+
+──────────────────────────────────────────────────────────────────
+SECTION 2: RELIGIOUS ATTENDANCE  (ANOVA + Pearson r for trend)
+──────────────────────────────────────────────────────────────────
+
+General Support: F=3.98, p=0.0078 **;  r=-0.108
+   Never               : M = 3.373
+   Low (1-2x)          : M = 3.163
+   Moderate (3-4x)     : M = 3.043
+   High (5+x)          : M = 2.860
+
+Poor Families: F=6.25, p=0.0003 ***;  r=-0.125
+   Never               : M = 3.634
+   Low (1-2x)          : M = 3.317
+   Moderate (3-4x)     : M = 3.061
+   High (5+x)          : M = 3.065
+
+Wealthy Families: F=4.95, p=0.0020 **;  r=0.114
+   Never               : M = 3.641
+   Low (1-2x)          : M = 3.755
+   Moderate (3-4x)     : M = 3.957
+   High (5+x)          : M = 3.959
+
+Religious Families: F=2.47, p=0.0604 n.s.;  r=0.084
+   Never               : M = 3.669
+   Low (1-2x)          : M = 3.770
+   Moderate (3-4x)     : M = 3.866
+   High (5+x)          : M = 3.901
+
+Urban Families: F=1.89, p=0.1303 n.s.;  r=-0.073
+   Never               : M = 3.472
+   Low (1-2x)          : M = 3.400
+   Moderate (3-4x)     : M = 3.268
+   High (5+x)          : M = 3.228
+
+Rural Families: F=6.13, p=0.0004 ***;  r=-0.134
+   Never               : M = 3.380
+   Low (1-2x)          : M = 3.243
+   Moderate (3-4x)     : M = 3.043
+   High (5+x)          : M = 2.883
+
+Students w/ Disabilities: F=5.69, p=0.0007 ***;  r=-0.128
+   Never               : M = 3.570
+   Low (1-2x)          : M = 3.432
+   Moderate (3-4x)     : M = 3.203
+   High (5+x)          : M = 3.088
+
+──────────────────────────────────────────────────────────────────
+SECTION 3: PARENT OF CHILD WITH DISABILITY  (Independent t-tests)
+──────────────────────────────────────────────────────────────────
+
+General Support: t=2.762, p=0.0059 **
+   SWD Parent (n=58): M = 3.603
+   Not SWD Parent (n=942): M = 3.086
+   Δ = 0.517
+
+Poor Families: t=0.915, p=0.3603 n.s.
+   SWD Parent (n=58): M = 3.431
+   Not SWD Parent (n=941): M = 3.256
+   Δ = 0.175
+
+Wealthy Families: t=-0.053, p=0.9576 n.s.
+   SWD Parent (n=58): M = 3.810
+   Not SWD Parent (n=942): M = 3.817
+   Δ = -0.007
+
+Religious Families: t=0.093, p=0.9257 n.s.
+   SWD Parent (n=58): M = 3.810
+   Not SWD Parent (n=942): M = 3.799
+   Δ = 0.011
+
+Urban Families: t=1.826, p=0.0682 n.s.
+   SWD Parent (n=58): M = 3.621
+   Not SWD Parent (n=941): M = 3.340
+   Δ = 0.281
+
+Rural Families: t=0.060, p=0.9519 n.s.
+   SWD Parent (n=58): M = 3.172
+   Not SWD Parent (n=941): M = 3.163
+   Δ = 0.010
+
+Students w/ Disabilities: t=-0.122, p=0.9033 n.s.
+   SWD Parent (n=58): M = 3.328
+   Not SWD Parent (n=942): M = 3.348
+   Δ = -0.021
+
+──────────────────────────────────────────────────────────────────
+SECTION 4: FRAMING EXPERIMENT × SUBGROUPS
+──────────────────────────────────────────────────────────────────
+
+High-Tuition School:
+  By Party:
+    Democrat            : Spec=2.25, Equity=3.14, Δ=+0.89
+    Lean Dem            : Spec=2.43, Equity=3.41, Δ=+0.99
+    Independent         : Spec=2.07, Equity=2.82, Δ=+0.75
+    Lean Rep            : Spec=2.23, Equity=2.59, Δ=+0.36
+    Republican          : Spec=1.88, Equity=2.32, Δ=+0.44
+  By Religiousness:
+    Never               : Spec=2.11, Equity=2.56, Δ=+0.46
+    Low (1-2x)          : Spec=2.08, Equity=2.77, Δ=+0.69
+    Moderate (3-4x)     : Spec=2.17, Equity=3.14, Δ=+0.96
+    High (5+x)          : Spec=2.44, Equity=3.18, Δ=+0.74
+  By SWD Parent Status:
+    Parent of SWD       : Spec=2.11, Equity=2.83, Δ=+0.73
+    Not SWD Parent      : Spec=2.15, Equity=2.90, Δ=+0.75
+
+Religious School:
+  By Party:
+    Democrat            : Spec=3.61, Equity=3.97, Δ=+0.37
+    Lean Dem            : Spec=3.77, Equity=4.39, Δ=+0.63
+    Independent         : Spec=3.12, Equity=3.43, Δ=+0.32
+    Lean Rep            : Spec=2.94, Equity=3.21, Δ=+0.26
+    Republican          : Spec=2.14, Equity=2.77, Δ=+0.63
+  By Religiousness:
+    Never               : Spec=2.88, Equity=3.14, Δ=+0.25
+    Low (1-2x)          : Spec=3.14, Equity=3.62, Δ=+0.48
+    Moderate (3-4x)     : Spec=3.26, Equity=3.69, Δ=+0.43
+    High (5+x)          : Spec=3.35, Equity=3.80, Δ=+0.45
+  By SWD Parent Status:
+    Parent of SWD       : Spec=2.96, Equity=3.03, Δ=+0.07
+    Not SWD Parent      : Spec=3.16, Equity=3.64, Δ=+0.48
+
+Selective Cognitive School:
+  By Party:
+    Democrat            : Spec=2.36, Equity=3.34, Δ=+0.99
+    Lean Dem            : Spec=2.15, Equity=3.43, Δ=+1.29
+    Independent         : Spec=2.13, Equity=3.04, Δ=+0.91
+    Lean Rep            : Spec=2.06, Equity=2.48, Δ=+0.43
+    Republican          : Spec=1.78, Equity=2.64, Δ=+0.86
+  By Religiousness:
+    Never               : Spec=2.11, Equity=2.70, Δ=+0.59
+    Low (1-2x)          : Spec=2.12, Equity=3.17, Δ=+1.05
+    Moderate (3-4x)     : Spec=2.12, Equity=3.26, Δ=+1.14
+    High (5+x)          : Spec=2.31, Equity=2.99, Δ=+0.68
+  By SWD Parent Status:
+    Parent of SWD       : Spec=2.29, Equity=3.07, Δ=+0.78
+    Not SWD Parent      : Spec=2.13, Equity=3.09, Δ=+0.96
+
+*** p<.001  ** p<.01  * p<.05  n.s. = not significant
+======================================================================

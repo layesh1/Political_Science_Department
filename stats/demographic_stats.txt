@@ -1,0 +1,379 @@
+======================================================================
+DEMOGRAPHIC SUBGROUP ANALYSIS — VOUCHER SURVEY (Fall 2025, N=1,005)
+======================================================================
+Income classification: Low=<$30k | Low-Mid=$30-59k | Middle=$60-99k
+                       High-Mid=$100-149k | High=$150k+
+Age groups: 18-29 | 30-44 | 45-59 | 60+
+
+──────────────────────────────────────────────────────────────────
+SECTION: RACE  (ANOVA on each outcome)
+──────────────────────────────────────────────────────────────────
+
+General Support: F=10.82, p=0.0000 ***
+   White                    : M = 2.987
+   Black/African Am.        : M = 3.804
+   Hispanic/Latino          : M = 3.118
+   Asian                    : M = 2.811
+   Other                    : M = 3.154
+   >> Range: 2.811 to 3.804, Δ = 0.994
+
+Poor Families: F=4.81, p=0.0008 ***
+   White                    : M = 3.194
+   Black/African Am.        : M = 3.732
+   Hispanic/Latino          : M = 3.076
+   Asian                    : M = 3.324
+   Other                    : M = 3.154
+   >> Range: 3.076 to 3.732, Δ = 0.656
+
+Wealthy Families: F=1.34, p=0.2527 n.s.
+   White                    : M = 3.864
+   Black/African Am.        : M = 3.746
+   Hispanic/Latino          : M = 3.723
+   Asian                    : M = 3.730
+   Other                    : M = 3.462
+   >> Range: 3.462 to 3.864, Δ = 0.402
+
+Religious Families: F=1.70, p=0.1487 n.s.
+   White                    : M = 3.846
+   Black/African Am.        : M = 3.688
+   Hispanic/Latino          : M = 3.706
+   Asian                    : M = 3.649
+   Other                    : M = 3.769
+   >> Range: 3.649 to 3.846, Δ = 0.198
+
+Urban Families: F=3.24, p=0.0117 *
+   White                    : M = 3.309
+   Black/African Am.        : M = 3.645
+   Hispanic/Latino          : M = 3.218
+   Asian                    : M = 3.324
+   Other                    : M = 3.692
+   >> Range: 3.218 to 3.692, Δ = 0.474
+
+Rural Families: F=6.33, p=0.0000 ***
+   White                    : M = 3.102
+   Black/African Am.        : M = 3.616
+   Hispanic/Latino          : M = 2.958
+   Asian                    : M = 3.108
+   Other                    : M = 3.077
+   >> Range: 2.958 to 3.616, Δ = 0.658
+
+Students w/ Disabilities: F=6.18, p=0.0001 ***
+   White                    : M = 3.247
+   Black/African Am.        : M = 3.819
+   Hispanic/Latino          : M = 3.303
+   Asian                    : M = 3.351
+   Other                    : M = 3.538
+   >> Range: 3.247 to 3.819, Δ = 0.572
+
+  Framing Experiment Δ (Equity - Specialty):
+  High-Tuition School:
+    White                    : Spec=2.29, Equity=2.92, Δ=+0.63
+    Black/African Am.        : Spec=1.69, Equity=2.62, Δ=+0.92
+    Hispanic/Latino          : Spec=1.92, Equity=3.02, Δ=+1.10
+    Asian                    : Spec=2.19, Equity=3.24, Δ=+1.05
+    Other                    : Spec=2.86, Equity=2.50, Δ=-0.36
+  Religious School:
+    White                    : Spec=3.26, Equity=3.62, Δ=+0.36
+    Black/African Am.        : Spec=2.49, Equity=3.31, Δ=+0.81
+    Hispanic/Latino          : Spec=3.18, Equity=3.76, Δ=+0.58
+    Asian                    : Spec=3.62, Equity=4.00, Δ=+0.38
+    Other                    : Spec=4.00, Equity=3.17, Δ=-0.83
+  Selective Cognitive School:
+    White                    : Spec=2.21, Equity=3.11, Δ=+0.90
+    Black/African Am.        : Spec=1.72, Equity=3.00, Δ=+1.28
+    Hispanic/Latino          : Spec=2.12, Equity=3.17, Δ=+1.05
+    Asian                    : Spec=2.62, Equity=2.90, Δ=+0.28
+    Other                    : Spec=3.14, Equity=3.17, Δ=+0.02
+
+──────────────────────────────────────────────────────────────────
+SECTION: GENDER  (ANOVA on each outcome)
+──────────────────────────────────────────────────────────────────
+
+General Support: F=0.02, p=0.8857 n.s.
+   Man                      : M = 3.107
+   Woman                    : M = 3.120
+   >> Range: 3.107 to 3.120, Δ = 0.013
+
+Poor Families: F=0.07, p=0.7900 n.s.
+   Man                      : M = 3.272
+   Woman                    : M = 3.248
+   >> Range: 3.248 to 3.272, Δ = 0.024
+
+Wealthy Families: F=2.05, p=0.1530 n.s.
+   Man                      : M = 3.776
+   Woman                    : M = 3.864
+   >> Range: 3.776 to 3.864, Δ = 0.088
+
+Religious Families: F=0.41, p=0.5233 n.s.
+   Man                      : M = 3.817
+   Woman                    : M = 3.782
+   >> Range: 3.782 to 3.817, Δ = 0.035
+
+Urban Families: F=2.53, p=0.1122 n.s.
+   Man                      : M = 3.294
+   Woman                    : M = 3.408
+   >> Range: 3.294 to 3.408, Δ = 0.114
+
+Rural Families: F=0.44, p=0.5064 n.s.
+   Man                      : M = 3.181
+   Woman                    : M = 3.130
+   >> Range: 3.130 to 3.181, Δ = 0.051
+
+Students w/ Disabilities: F=0.77, p=0.3802 n.s.
+   Man                      : M = 3.375
+   Woman                    : M = 3.305
+   >> Range: 3.305 to 3.375, Δ = 0.070
+
+  Framing Experiment Δ (Equity - Specialty):
+  High-Tuition School:
+    Man                      : Spec=2.16, Equity=2.96, Δ=+0.80
+    Woman                    : Spec=2.16, Equity=2.84, Δ=+0.68
+  Religious School:
+    Man                      : Spec=3.10, Equity=3.66, Δ=+0.56
+    Woman                    : Spec=3.23, Equity=3.56, Δ=+0.33
+  Selective Cognitive School:
+    Man                      : Spec=2.19, Equity=2.99, Δ=+0.80
+    Woman                    : Spec=2.10, Equity=3.19, Δ=+1.09
+
+──────────────────────────────────────────────────────────────────
+SECTION: AGE GROUP  (ANOVA on each outcome)
+──────────────────────────────────────────────────────────────────
+
+General Support: F=7.73, p=0.0000 ***
+   18-29                    : M = 3.378
+   30-44                    : M = 3.250
+   45-59                    : M = 2.937
+   60+                      : M = 2.858
+   >> Range: 2.858 to 3.378, Δ = 0.520
+
+Poor Families: F=4.43, p=0.0042 **
+   18-29                    : M = 3.515
+   30-44                    : M = 3.301
+   45-59                    : M = 3.119
+   60+                      : M = 3.100
+   >> Range: 3.100 to 3.515, Δ = 0.415
+
+Wealthy Families: F=4.08, p=0.0068 **
+   18-29                    : M = 3.691
+   30-44                    : M = 3.795
+   45-59                    : M = 3.810
+   60+                      : M = 4.009
+   >> Range: 3.691 to 4.009, Δ = 0.318
+
+Religious Families: F=6.18, p=0.0004 ***
+   18-29                    : M = 3.755
+   30-44                    : M = 3.651
+   45-59                    : M = 3.877
+   60+                      : M = 3.957
+   >> Range: 3.651 to 3.957, Δ = 0.307
+
+Urban Families: F=2.69, p=0.0452 *
+   18-29                    : M = 3.459
+   30-44                    : M = 3.432
+   45-59                    : M = 3.213
+   60+                      : M = 3.294
+   >> Range: 3.213 to 3.459, Δ = 0.247
+
+Rural Families: F=7.50, p=0.0001 ***
+   18-29                    : M = 3.382
+   30-44                    : M = 3.274
+   45-59                    : M = 2.978
+   60+                      : M = 2.967
+   >> Range: 2.967 to 3.382, Δ = 0.415
+
+Students w/ Disabilities: F=6.97, p=0.0001 ***
+   18-29                    : M = 3.609
+   30-44                    : M = 3.408
+   45-59                    : M = 3.182
+   60+                      : M = 3.152
+   >> Range: 3.152 to 3.609, Δ = 0.458
+
+  Framing Experiment Δ (Equity - Specialty):
+  High-Tuition School:
+    18-29                    : Spec=1.90, Equity=2.72, Δ=+0.82
+    30-44                    : Spec=2.03, Equity=2.80, Δ=+0.77
+    45-59                    : Spec=2.34, Equity=3.03, Δ=+0.69
+    60+                      : Spec=2.43, Equity=3.05, Δ=+0.62
+  Religious School:
+    18-29                    : Spec=3.10, Equity=3.46, Δ=+0.36
+    30-44                    : Spec=3.05, Equity=3.60, Δ=+0.55
+    45-59                    : Spec=3.33, Equity=3.69, Δ=+0.36
+    60+                      : Spec=3.18, Equity=3.66, Δ=+0.48
+  Selective Cognitive School:
+    18-29                    : Spec=2.16, Equity=2.85, Δ=+0.69
+    30-44                    : Spec=2.10, Equity=3.01, Δ=+0.91
+    45-59                    : Spec=2.20, Equity=3.20, Δ=+1.00
+    60+                      : Spec=2.14, Equity=3.32, Δ=+1.18
+
+──────────────────────────────────────────────────────────────────
+SECTION: HOUSEHOLD INCOME  (ANOVA on each outcome)
+──────────────────────────────────────────────────────────────────
+
+General Support: F=1.04, p=0.3854 n.s.
+   Low (<$30k)              : M = 3.179
+   Low-Mid ($30-59k)        : M = 3.223
+   Middle ($60-99k)         : M = 3.079
+   High-Mid ($100-149k)     : M = 3.116
+   High ($150k+)            : M = 2.928
+   >> Range: 2.928 to 3.223, Δ = 0.295
+
+Poor Families: F=1.29, p=0.2720 n.s.
+   Low (<$30k)              : M = 3.250
+   Low-Mid ($30-59k)        : M = 3.337
+   Middle ($60-99k)         : M = 3.325
+   High-Mid ($100-149k)     : M = 3.231
+   High ($150k+)            : M = 3.000
+   >> Range: 3.000 to 3.337, Δ = 0.337
+
+Wealthy Families: F=0.62, p=0.6482 n.s.
+   Low (<$30k)              : M = 3.876
+   Low-Mid ($30-59k)        : M = 3.753
+   Middle ($60-99k)         : M = 3.837
+   High-Mid ($100-149k)     : M = 3.827
+   High ($150k+)            : M = 3.892
+   >> Range: 3.753 to 3.892, Δ = 0.139
+
+Religious Families: F=2.42, p=0.0466 *
+   Low (<$30k)              : M = 3.772
+   Low-Mid ($30-59k)        : M = 3.735
+   Middle ($60-99k)         : M = 3.767
+   High-Mid ($100-149k)     : M = 3.902
+   High ($150k+)            : M = 3.991
+   >> Range: 3.735 to 3.991, Δ = 0.256
+
+Urban Families: F=1.19, p=0.3150 n.s.
+   Low (<$30k)              : M = 3.514
+   Low-Mid ($30-59k)        : M = 3.344
+   Middle ($60-99k)         : M = 3.325
+   High-Mid ($100-149k)     : M = 3.387
+   High ($150k+)            : M = 3.216
+   >> Range: 3.216 to 3.514, Δ = 0.298
+
+Rural Families: F=2.11, p=0.0775 n.s.
+   Low (<$30k)              : M = 3.303
+   Low-Mid ($30-59k)        : M = 3.179
+   Middle ($60-99k)         : M = 3.158
+   High-Mid ($100-149k)     : M = 3.173
+   High ($150k+)            : M = 2.874
+   >> Range: 2.874 to 3.303, Δ = 0.430
+
+Students w/ Disabilities: F=0.83, p=0.5063 n.s.
+   Low (<$30k)              : M = 3.455
+   Low-Mid ($30-59k)        : M = 3.323
+   Middle ($60-99k)         : M = 3.379
+   High-Mid ($100-149k)     : M = 3.324
+   High ($150k+)            : M = 3.180
+   >> Range: 3.180 to 3.455, Δ = 0.275
+
+  Framing Experiment Δ (Equity - Specialty):
+  High-Tuition School:
+    Low (<$30k)              : Spec=2.14, Equity=3.01, Δ=+0.87
+    Low-Mid ($30-59k)        : Spec=2.07, Equity=2.74, Δ=+0.67
+    Middle ($60-99k)         : Spec=2.15, Equity=3.05, Δ=+0.90
+    High-Mid ($100-149k)     : Spec=2.23, Equity=3.04, Δ=+0.81
+    High ($150k+)            : Spec=2.34, Equity=2.65, Δ=+0.32
+  Religious School:
+    Low (<$30k)              : Spec=3.28, Equity=3.83, Δ=+0.55
+    Low-Mid ($30-59k)        : Spec=3.16, Equity=3.42, Δ=+0.26
+    Middle ($60-99k)         : Spec=3.10, Equity=3.84, Δ=+0.74
+    High-Mid ($100-149k)     : Spec=2.98, Equity=3.62, Δ=+0.64
+    High ($150k+)            : Spec=3.25, Equity=3.38, Δ=+0.13
+  Selective Cognitive School:
+    Low (<$30k)              : Spec=2.08, Equity=3.33, Δ=+1.25
+    Low-Mid ($30-59k)        : Spec=2.05, Equity=2.92, Δ=+0.87
+    Middle ($60-99k)         : Spec=2.17, Equity=3.21, Δ=+1.04
+    High-Mid ($100-149k)     : Spec=2.05, Equity=3.13, Δ=+1.08
+    High ($150k+)            : Spec=2.36, Equity=2.98, Δ=+0.62
+
+──────────────────────────────────────────────────────────────────
+SECTION: EDUCATION  (ANOVA on each outcome)
+──────────────────────────────────────────────────────────────────
+
+General Support: F=2.26, p=0.0469 *
+   No HS Diploma            : M = 3.900
+   HS Diploma/GED           : M = 3.323
+   Some College /Associate  : M = 3.125
+   Bachelor's               : M = 3.095
+   Master's                 : M = 2.833
+   Graduate Degree          : M = 3.241
+   >> Range: 2.833 to 3.900, Δ = 1.067
+
+Poor Families: F=1.51, p=0.1829 n.s.
+   No HS Diploma            : M = 3.400
+   HS Diploma/GED           : M = 3.452
+   Some College /Associate  : M = 3.331
+   Bachelor's               : M = 3.217
+   Master's                 : M = 3.000
+   Graduate Degree          : M = 3.241
+   >> Range: 3.000 to 3.452, Δ = 0.452
+
+Wealthy Families: F=1.67, p=0.1387 n.s.
+   No HS Diploma            : M = 3.700
+   HS Diploma/GED           : M = 3.750
+   Some College /Associate  : M = 3.731
+   Bachelor's               : M = 3.851
+   Master's                 : M = 3.992
+   Graduate Degree          : M = 4.000
+   >> Range: 3.700 to 4.000, Δ = 0.300
+
+Religious Families: F=4.96, p=0.0002 ***
+   No HS Diploma            : M = 3.300
+   HS Diploma/GED           : M = 3.669
+   Some College /Associate  : M = 3.714
+   Bachelor's               : M = 3.823
+   Master's                 : M = 4.000
+   Graduate Degree          : M = 4.276
+   >> Range: 3.300 to 4.276, Δ = 0.976
+
+Urban Families: F=0.37, p=0.8673 n.s.
+   No HS Diploma            : M = 3.600
+   HS Diploma/GED           : M = 3.435
+   Some College /Associate  : M = 3.357
+   Bachelor's               : M = 3.338
+   Master's                 : M = 3.269
+   Graduate Degree          : M = 3.310
+   >> Range: 3.269 to 3.600, Δ = 0.331
+
+Rural Families: F=1.82, p=0.1070 n.s.
+   No HS Diploma            : M = 3.200
+   HS Diploma/GED           : M = 3.419
+   Some College /Associate  : M = 3.111
+   Bachelor's               : M = 3.156
+   Master's                 : M = 2.975
+   Graduate Degree          : M = 3.172
+   >> Range: 2.975 to 3.419, Δ = 0.444
+
+Students w/ Disabilities: F=2.22, p=0.0502 n.s.
+   No HS Diploma            : M = 3.100
+   HS Diploma/GED           : M = 3.556
+   Some College /Associate  : M = 3.364
+   Bachelor's               : M = 3.359
+   Master's                 : M = 3.092
+   Graduate Degree          : M = 3.000
+   >> Range: 3.000 to 3.556, Δ = 0.556
+
+  Framing Experiment Δ (Equity - Specialty):
+  High-Tuition School:
+    No HS Diploma            : Spec=1.67, Equity=2.50, Δ=+0.83
+    HS Diploma/GED           : Spec=2.04, Equity=2.58, Δ=+0.55
+    Some College /Associate  : Spec=2.03, Equity=3.00, Δ=+0.97
+    Bachelor's               : Spec=2.16, Equity=2.93, Δ=+0.76
+    Master's                 : Spec=2.47, Equity=2.93, Δ=+0.47
+    Graduate Degree          : Spec=3.27, Equity=2.89, Δ=-0.38
+  Religious School:
+    No HS Diploma            : Spec=2.00, Equity=4.50, Δ=+2.50
+    HS Diploma/GED           : Spec=3.11, Equity=3.24, Δ=+0.13
+    Some College /Associate  : Spec=3.20, Equity=3.75, Δ=+0.55
+    Bachelor's               : Spec=3.13, Equity=3.55, Δ=+0.42
+    Master's                 : Spec=3.17, Equity=3.82, Δ=+0.65
+    Graduate Degree          : Spec=3.91, Equity=3.61, Δ=-0.30
+  Selective Cognitive School:
+    No HS Diploma            : Spec=2.50, Equity=1.75, Δ=-0.75
+    HS Diploma/GED           : Spec=2.05, Equity=2.96, Δ=+0.90
+    Some College /Associate  : Spec=2.01, Equity=3.26, Δ=+1.25
+    Bachelor's               : Spec=2.19, Equity=3.04, Δ=+0.85
+    Master's                 : Spec=2.23, Equity=3.18, Δ=+0.95
+    Graduate Degree          : Spec=3.18, Equity=2.83, Δ=-0.35
+
+*** p<.001  ** p<.01  * p<.05  n.s. = not significant
+======================================================================
