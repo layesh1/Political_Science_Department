@@ -1,6 +1,4 @@
 """
-Generates the two figures actually described/labeled in the manuscript text
-("Lena Comments - Vouchers August 18") but missing from the GitHub repo:
 
   Figure 1 — Distribution of Perceived Benefits of School Voucher Programs
              Across Population Groups (sorted by combined benefit; single
@@ -10,19 +8,6 @@ Generates the two figures actually described/labeled in the manuscript text
              Beneficiaries of School Voucher Programs (forest / dot-whisker
              plot of the six OLS models behind Table 3)
 
-Matches the color palette / font conventions already used in scripts/analysis.py
-so the new figures sit visually alongside the rest of the repo's figures.
-
-NOTE ON SAMPLE SIZE: this script runs on the raw label export
-(POLSLab_Fall25_National_Labels_with_Background.xlsx) with only two exclusions
-applied — failed attention check (col "22" != "22") and listwise deletion on
-the model variables. That yields a slightly larger analytic n (~980-990) than
-the manuscript's reported n (953-960 in Tables 1/3), which reflects additional
-quality-control exclusions (e.g. a speeder/duration cutoff) not identifiable
-from this file alone. Coefficient signs, relative magnitudes, and significance
-patterns replicate closely, but exact values will shift a bit once the same
-QC filter used for the manuscript is applied — swap in that filter below
-(see QUALITY CONTROL section) before treating this as the final figure.
 """
 
 import os
