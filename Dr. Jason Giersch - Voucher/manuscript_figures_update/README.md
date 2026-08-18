@@ -6,8 +6,11 @@ scripted in `../figures` or `../scripts`:
 
 - `manuscript_figures.py` — generates `fig_manuscript_1_perceived_benefits.png`
   (Figure 1: sorted, single 100%-stacked bar, matching the manuscript caption
-  "Sorted by Combined Benefit") and `fig_manuscript_2_beneficiary_coefficients.png`
-  (Figure 2: forest plot of the six Table 3 regression models).
+  "Sorted by Combined Benefit"; palette/style matches the version already in
+  the draft) and `fig_manuscript_2_beneficiary_coefficients.png` (Figure 2:
+  the six Table 3 regression models, redesigned as three small-multiple
+  panels — one per predictor, outcomes as directly-labeled sorted rows —
+  instead of one plot with an 18-way dodge and a color-matched legend).
 - `table4_framing_regression.py` — bivariate + controlled OLS models behind
   Table 4 (equity vs. specialty/efficiency framing effects); output in
   `table4_results.txt`.

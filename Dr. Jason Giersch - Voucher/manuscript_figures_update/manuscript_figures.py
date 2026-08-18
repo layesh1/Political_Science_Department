@@ -68,11 +68,14 @@ for col, _ in benefit_cols:
 
 # ═══════════════════════════════════════════════════════════
 # FIGURE 1 — SORTED 100%-STACKED HORIZONTAL BAR
+# Palette/style matches the version already in the manuscript (kept as-is
+# per author preference): red / orange / gray / light-blue / dark-blue.
 # ═══════════════════════════════════════════════════════════
 effect_order = ['They are greatly harmed', 'They are slightly harmed',
                 'No effect or not sure', 'They somewhat benefit', 'They greatly benefit']
 seg_labels = ['Greatly Harmed', 'Slightly Harmed', 'No Effect / Not Sure', 'Somewhat Benefit', 'Greatly Benefit']
-seg_colors = [RED, '#FCA5A5', GRAY, '#86EFAC', TEAL]
+seg_colors = ['#C0392B', '#ED7D31', '#D9D9D9', '#9DC3E6', '#4472C4']
+seg_text_colors = ['white', 'black', 'black', 'black', 'white']
 
 rows = []
 for col, label in benefit_cols:
@@ -94,21 +97,20 @@ for i, (seg_label, color) in enumerate(zip(seg_labels, seg_colors)):
     bars = ax.barh(y_pos, vals, left=left, color=color, edgecolor='white',
                     linewidth=0.8, height=0.62, zorder=3, label=seg_label)
     for y, v, l in zip(y_pos, vals, left):
-        if v > 4:
+        if v > 3:
             ax.text(l + v / 2, y, f'{v:.1f}%', ha='center', va='center',
-                    fontsize=8.5, color='white' if color in (RED, TEAL) else DARK, fontweight='bold')
+                    fontsize=8.5, color=seg_text_colors[i])
     left += vals
 
 ax.set_yticks(y_pos)
-ax.set_yticklabels([r['label'] for r in rows], fontsize=10.5, color=DARK)
-ax.set_xlabel('Percentage of Respondents (%)', fontsize=10, color=GRAY)
+ax.set_yticklabels([r['label'] for r in rows], fontsize=10.5, color='black')
+ax.set_xlabel('Percentage of Respondents (%)', fontsize=10, color='black')
 ax.set_xlim(0, 100)
-ax.xaxis.grid(True, linestyle='--', alpha=0.5, zorder=0)
-ax.set_axisbelow(True)
+ax.set_title('Perceived Impact of School Voucher Programs (Sorted by Combined Benefit)',
+             fontsize=12, color='black', pad=12)
 ax.spines[['top', 'right']].set_visible(False)
-fig1.suptitle('Figure 1. Distribution of Perceived Benefits of School Voucher Programs\nAcross Population Groups (Sorted by Combined Benefit)',
-              fontsize=12.5, fontweight='bold', color=DARK, y=1.04)
-ax.legend(loc='upper center', bbox_to_anchor=(0.5, -0.13), ncol=5, fontsize=8.5, frameon=False)
+ax.legend(title='Response Category', loc='center left', bbox_to_anchor=(1.01, 0.5),
+          fontsize=9, frameon=True, edgecolor='#CCCCCC')
 
 fig1.tight_layout()
 fig1.savefig(os.path.join(script_dir, 'fig_manuscript_1_perceived_benefits.png'), dpi=150, bbox_inches='tight')
@@ -116,16 +118,18 @@ plt.close(fig1)
 print('Figure 1 (sorted stacked bar) saved.')
 
 # ═══════════════════════════════════════════════════════════
-# FIGURE 2 — REGRESSION COEFFICIENTS (FOREST PLOT), TABLE 3 MODELS
+# FIGURE 2 — REGRESSION COEFFICIENTS, TABLE 3 MODELS
+# Redesigned as three small-multiple panels (one per predictor) with
+# outcomes as directly-labeled, sorted rows instead of a single plot with
+# an 18-way dodge and a color-matched legend — removes the need to
+# cross-reference colors against a legend to read any one estimate.
 # ═══════════════════════════════════════════════════════════
 predictors = ['VKnow_n', 'Vsupport_n', 'Ideology_n']
-predictor_labels = ['VKnow', 'Vsupport', 'Ideology']  # top → bottom, matches manuscript figure
+predictor_titles = {'VKnow_n': 'Voucher Knowledge', 'Vsupport_n': 'Voucher Support', 'Ideology_n': 'Ideology (Conservative)'}
 
 outcome_order = ['VPoor_n', 'VWealthy_n', 'VReligious_n', 'VUrban_n', 'VRural_n', 'Vswd_n']
-outcome_labels = {'VPoor_n': 'poor', 'VWealthy_n': 'wealthy', 'VReligious_n': 'religious',
-                   'VUrban_n': 'urban', 'VRural_n': 'rural', 'Vswd_n': 'swd'}
-outcome_colors = {'VPoor_n': '#DC2626', 'VWealthy_n': '#D97706', 'VReligious_n': '#7C3AED',
-                   'VUrban_n': '#2563EB', 'VRural_n': '#0D9488', 'Vswd_n': '#DB2777'}
+outcome_labels = {'VPoor_n': 'Poor families', 'VWealthy_n': 'Wealthy families', 'VReligious_n': 'Religious families',
+                   'VUrban_n': 'Urban families', 'VRural_n': 'Rural families', 'Vswd_n': 'Students with disabilities'}
 
 results = {}
 for oc in outcome_order:
@@ -134,43 +138,40 @@ for oc in outcome_order:
     y = sub[oc]
     model = sm.OLS(y, X).fit()
     ci = model.conf_int(alpha=0.05)
-    results[oc] = {
-        'coef': model.params,
-        'lo': ci[0],
-        'hi': ci[1],
-        'n': len(sub),
-        'r2': model.rsquared,
-    }
+    results[oc] = {'coef': model.params, 'lo': ci[0], 'hi': ci[1], 'n': len(sub), 'r2': model.rsquared}
     print(f"{oc}: n={len(sub)}, R2={model.rsquared:.3f}, coefs={model.params.round(3).to_dict()}")
 
-fig2, ax2 = plt.subplots(figsize=(9, 5.5))
+DOT = '#2563EB'
+xmin = min(results[oc]['lo'][p] for oc in outcome_order for p in predictors) - 0.05
+xmax = max(results[oc]['hi'][p] for oc in outcome_order for p in predictors) + 0.05
 
-n_outcomes = len(outcome_order)
-dodge = np.linspace(-0.28, 0.28, n_outcomes)
+fig2, axes2 = plt.subplots(1, 3, figsize=(13, 4.2), sharex=True)
 
-for row_idx, pred in enumerate(predictors):
-    base_y = len(predictors) - 1 - row_idx  # VKnow on top
-    for j, oc in enumerate(outcome_order):
+for ax, pred in zip(axes2, predictors):
+    # sort outcomes by coefficient size, largest (most positive) at top
+    ordered = sorted(outcome_order, key=lambda oc: results[oc]['coef'][pred])
+    ys = range(len(ordered))
+    for y, oc in zip(ys, ordered):
         r = results[oc]
-        y = base_y + dodge[j]
-        coef = r['coef'][pred]
-        lo, hi = r['lo'][pred], r['hi'][pred]
-        ax2.plot([lo, hi], [y, y], color=outcome_colors[oc], linewidth=1.6, zorder=2)
-        ax2.scatter([coef], [y], color=outcome_colors[oc], s=34, zorder=3,
-                    label=outcome_labels[oc] if row_idx == 0 else None, edgecolor='white', linewidth=0.5)
+        coef, lo, hi = r['coef'][pred], r['lo'][pred], r['hi'][pred]
+        sig = lo > 0 or hi < 0
+        color = DOT if sig else '#9CA3AF'
+        ax.plot([lo, hi], [y, y], color=color, linewidth=1.6, zorder=2, alpha=1 if sig else 0.6)
+        ax.scatter([coef], [y], color=color, s=42, zorder=3, edgecolor='white', linewidth=0.6)
+    ax.set_yticks(list(ys))
+    ax.set_yticklabels([outcome_labels[oc] for oc in ordered], fontsize=9.5, color='black')
+    ax.axvline(0, color='black', linestyle='--', linewidth=1, zorder=1)
+    ax.set_xlim(xmin, xmax)
+    ax.set_title(predictor_titles[pred], fontsize=11, fontweight='bold', color='black', pad=8)
+    ax.xaxis.grid(True, linestyle='--', alpha=0.4, zorder=0)
+    ax.set_axisbelow(True)
+    ax.spines[['top', 'right']].set_visible(False)
 
-ax2.axvline(0, color=DARK, linestyle='--', linewidth=1, zorder=1)
-ax2.set_yticks(range(len(predictors)))
-ax2.set_yticklabels(predictor_labels[::-1], fontsize=11, color=DARK)
-ax2.set_xlabel('Unstandardized regression coefficient (95% CI)', fontsize=9.5, color=GRAY)
-ax2.xaxis.grid(True, linestyle='--', alpha=0.5, zorder=0)
-ax2.set_axisbelow(True)
-ax2.spines[['top', 'right']].set_visible(False)
-fig2.suptitle('Figure 2. Estimated Regression Coefficients Predicting\nPerceived Beneficiaries of School Voucher Programs',
-              fontsize=12.5, fontweight='bold', color=DARK, y=1.03)
-ax2.legend(loc='center left', bbox_to_anchor=(1.01, 0.5), fontsize=9, frameon=False, title='Outcome')
+fig2.supxlabel('Unstandardized regression coefficient (95% CI)  •  gray = not significant at p<.05', fontsize=9, color='#4B5563')
+fig2.suptitle('Figure 2. Estimated Regression Coefficients Predicting Perceived Beneficiaries\nof School Voucher Programs, by Predictor',
+              fontsize=13, fontweight='bold', color='black', y=1.06)
 
 fig2.tight_layout()
 fig2.savefig(os.path.join(script_dir, 'fig_manuscript_2_beneficiary_coefficients.png'), dpi=150, bbox_inches='tight')
 plt.close(fig2)
-print('Figure 2 (coefficient forest plot) saved.')
+print('Figure 2 (faceted coefficient plot) saved.')
