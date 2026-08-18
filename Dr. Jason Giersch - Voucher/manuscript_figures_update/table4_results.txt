@@ -1,0 +1,31 @@
+======================================================================
+TABLE 4 REPLICATION — Effects of Equity Framing on Support for
+Voucher Program Restrictions (vs. Efficiency/Specialty Framing)
+======================================================================
+
+--- Tuition barriers ---
+Model 1 (bivariate): n = 991, R2 = 0.072
+  Treatment = 0.733  (p = 0.0000)
+Model 2 (with controls): n = 982, R2 = 0.405
+  Treatment    = +0.749  (p = 0.0000)
+  VKnow_n      = +0.149  (p = 0.0096)
+  Vsupport_n   = -0.536  (p = 0.0000)
+  Ideology_n   = -0.055  (p = 0.0033)
+
+--- Religious barriers ---
+Model 1 (bivariate): n = 992, R2 = 0.022
+  Treatment = 0.436  (p = 0.0000)
+Model 2 (with controls): n = 983, R2 = 0.436
+  Treatment    = +0.465  (p = 0.0000)
+  VKnow_n      = -0.089  (p = 0.1387)
+  Vsupport_n   = -0.503  (p = 0.0000)
+  Ideology_n   = -0.226  (p = 0.0000)
+
+--- Ability barriers ---
+Model 1 (bivariate): n = 992, R2 = 0.120
+  Treatment = 0.939  (p = 0.0000)
+Model 2 (with controls): n = 984, R2 = 0.316
+  Treatment    = +0.940  (p = 0.0000)
+  VKnow_n      = +0.186  (p = 0.0023)
+  Vsupport_n   = -0.376  (p = 0.0000)
+  Ideology_n   = -0.083  (p = 0.0000)
